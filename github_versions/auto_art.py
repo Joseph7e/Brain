@@ -3,8 +3,7 @@
 #author --> Joseph Sevigny and Nate Ennis
 #purpose --> run the art command to simulate a metagenomic assembly
         # --> art_illumina -sam -i Sequence_genomic.fna -p -l 250 -f 10 -m 650 -s 150 -o Sequence_l-250_f-10_m-650_s-150
-#dependencies 
-
+#dependencies: art and curl
 
 # input file is a space seperated list of genbank_accessions, wanted_coverage, and sample_name
 #example_file
