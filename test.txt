@@ -1,0 +1,43 @@
+13:25:29 alignments> whereis r
+r:
+13:25:36 alignments> R
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+>
+> dist.dna
+Error: object 'dist.dna' not found
+>
+>
+Save workspace image? [y/n/c]: n
+13:44:53 alignments> ls
+atp6.fa.clw  cob.fa.clw   cox2.fa.clw  nad1.fa.clw  nad3.fa.clw  nad4l.fa.clw  nad6.fa.clw
+atp8.fa.clw  cox1.fa.clw  cox3.fa.clw  nad2.fa.clw  nad4.fa.clw  nad5.fa.clw   nad6.faNO.clw
+13:44:54 alignments> cd ../
+13:44:59 pcgs_final_fastas_nemertea> ls
+alignments  atp8.fa          concat_sequences.clw  concat_sequences.fln-gb      cox1.fa  nad1.fa  nad4.fa   nad6.NO
+align.sh    cob.fa           concat_sequences.fa   concat_sequences.fln-gb.htm  cox2.fa  nad2.fa  nad4l.fa
+atp6.fa     concat_genes.py  concat_sequences.fln  concat_sequences_gb_.clw     cox3.fa  nad3.fa  nad5.fa
+13:44:59 pcgs_final_fastas_nemertea> cd
+13:45:01 ~> ls
+anguina_genome  BUSCO_v1.1b1           nohup.out      program_Gblocks   programs_microsat_finders  REAPR               SSRs
+auto_trim.sh    MAKER-RUN              OLD-STUFF      program_MIRA_4.9  program_sratoolkit.2.5.2   smithsonian_reads   tmp
+BUSCO_RUNS_EUK  MITOCHONDRIAL_GENOMES  program_BUSCO  program_MITObim   PYTHON_PROGRAMS            SPAdes-3.6.0-Linux
+13:45:01 ~> tmux capture-pane
+
